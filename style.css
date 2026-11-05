@@ -29,3 +29,19 @@ h2 {
     margin-top: 0;
     font-size: 24px;
 }
+
+/* 2026-11-05 新增：雙語卡片用的小樣式 */
+/* 英文標題和英文介紹：灰色、小一點，跟中文區分開 */
+.title-en,
+.desc-en {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: -8px;
+}
+
+/* 筆記區：淺綠色底，之後有心得就寫在這裡 */
+.note {
+    background: #f1f8e9;
+    border-radius: 8px;
+    padding: 12px;
+}
